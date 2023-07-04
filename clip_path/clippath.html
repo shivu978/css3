@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>clippath</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    
+    <style>
+            body
+            {
+                margin: 0;
+                padding: 0;
+                background-color: bisque;
+                -webkit-animation: 2s backindown alternate;
+                -moz-animation: 2s backindown alternate;
+                animation: 2s backindown alternate;
+            }
+            .box,.box1,.box2
+            {
+                width: 50%;
+                height: auto;
+                margin: auto;
+                padding: 25px;
+                border: solid 5px red;
+                margin-top: 3%;
+                -webkit-border-image: url();
+                -moz-border-image: url();
+                border-image: url();
+                box-shadow: 10px 10px 10px 10px grey;
+            }
+            .box h1
+            {
+                font-size: 45px;
+                -webkit-animation: 2s flash infinite;
+                -moz-animation: 2s flash infinite;
+                animation: 2s flash infinite;
+
+
+            .box1 h1
+            {
+                font-size: 45px;
+                -webkit-animation: 2s flash infinite;
+                -moz-animation: 2s flash infinite;
+                animation: 2s flash infinite;
+
+            }
+          
+              .box1 img
+               {
+                /*animation: 6s headshake infinite;*/
+                clip-path: polygon(50%,0,100%,50%,50%,100%,0 ,50%);
+                    padding: 25px;
+                
+               }
+               .box1 h1
+               {
+                animation: 6s shakey infinite;
+
+               }
+                .box2 img
+                {
+                    clip-path: polygon(50%,0,100%,50%,50%,100%,0 ,50%);
+                    padding: 25px;
+                }
+    </style>
+</head>
+<body>
+      <div class="box">
+        <h1>REGISTER NOW </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et expedita fugiat, iste quis temporibus quibusdam eaque similique tempora. Porro dicta odio nulla aperiam in sapiente odit nam perferendis, minima amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe vero deleniti in, recusandae eum tenetur sint, beatae libero hic quo odio ab dolores dolore dignissimos dolorum quibusdam corrupti voluptatibus molestias Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis non at molestias deserunt sequi quasi cumque molestiae suscipit. Fugit facilis soluta ullam aliquid amet et dolore nostrum eligendi iusto. Assumenda Lorem ipsum dolor sit amet consectetur adipisicing elit. In harum voluptatibus veniam, suscipit sequi blanditiis beatae dolorem voluptatem exercitationem, consequuntur voluptates omnis eius recusandae sed eaque ut. Nobis, dicta magnam </p>
+      </div>
+
+
+      <div class="box1">
+        <h1>ROBOT ROBOTICS </h1>
+        <p><img src="image/images.jpg" style="width: 150px ; height: 150px; float: left; padding: 5px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia repellendus veritatis, quasi eius excepturi blanditiis reiciendis iusto, dolor officiis aut, sit numquam amet magni consectetur provident architecto! Cumque, voluptas aspernatur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, nam voluptates soluta dolorum reprehenderit labore quisquam debitis facilis, consequatur, quaerat ullam! Enim aliquam asperiores suscipit unde omnis est sequi dignissimos Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, cupiditate, temporibus repudiandae aliquid libero iure facere reiciendis at et ratione aliquam quibusdam molestiae animi porro veritatis itaque eligendi cumque est Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque mollitia velit iste, quod repudiandae repellendus earum magni perferendis sunt officiis impedit nobis dicta magnam voluptates debitis facilis quae error autem! </p>
+      </div>
+</body>
+</html>

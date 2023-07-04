@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>column-gap-column-count</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <style>
+             body
+               {
+                margin: 0;
+                padding: 0;
+                background-color: bisque;
+                -webkit-animation: 2s backindown alternate;
+                -moz-animation:  2s backindown alternate;
+                animation:  2s backindown alternate ;
+               }
+               
+               .box,.box1,.box2
+               {
+                   width: 50%;
+                   height: auto;
+                   margin: auto;
+                   padding: 25px;
+                   margin-top: 3%;
+                   border: solid 18px transparent;
+                   -webkit-border-image: url(im/img1.jpg)round 70;
+                   -moz-border-image: url(im/img1.jpg) round 70;
+                   border-image: url(im/img1.jpg)round 70;
+                   box-shadow: 15px 15px 10px 10px palevioletred;
+
+                }
+
+                .box h1
+                {
+                    font-size: 45px;
+                    -webkit-animation: 2s flash infinite;
+                    -moz-animation: 2s flash infinite;
+                    animation: 2s flash infinite;
+                }
+                .box1 img
+                {
+                    font-size: 45px;
+                    -webkit-animation: 2s flash infinite;
+                    -moz-animation: 2s flash infinite;
+                    animation: 2s flash infinite;
+  
+                }
+                .box h1
+                {
+                    animation: 6s headshake infinite;
+                }
+                .box2 img
+                {
+                    clip-path: polygon(50% 0, 100% 50%,50% 100%, 0 50%);
+                    padding: 25px;
+                }
+               .box p
+               {
+                -webkit-column-count: 2;
+                -moz-column-count: 2;
+                column-count: 2;
+                column-gap: 45px;
+               }
+               .box1 p
+               {
+                -webkit-column-count: 3;
+                -moz-column-count: 3;
+                column-count: 3;
+                column-gap: 45px;
+                text-align: justify;
+               }
+               
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>REGISTER NOW </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, rerum odio? Eaque quia expedita reprehenderit voluptatibus aut nihil commodi asperiores? Veniam assumenda, ab sequi natus suscipit nam aut ullam sit  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur ad vitae quaerat fugit expedita quos placeat, similique fugiat nulla dignissimos, assumenda ipsum repudiandae. Nulla aperiam iste eaque doloribus, harum non Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat odit voluptate iste provident, repellendus ex asperiores dolorem consequatur vitae cum veniam dicta molestiae quasi quo debitis! Asperiores, nemo dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores earum perferendis nisi excepturi quam repudiandae error facilis consequuntur. Iste saepe voluptatem numquam ipsam. Accusantium aspernatur ipsum obcaecati voluptatum laboriosam saepe Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores vitae cupiditate, recusandae a voluptates facilis? Repellat eaque quis nemo quibusdam eius porro reiciendis, obcaecati voluptatibus minus id, esse commodi quisquam.</p>
+    </div>
+
+
+    <div class="box1">
+
+        <h1> HELLO CUSTOMER</h1>
+        <p><img src="im/img3.jpg" style="width: 150px; height: 150px; float: left; padding: 5px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At eos, praesentium sequi exercitationem fuga numquam, pariatur necessitatibus aliquam asperiores vero, magni error ipsum officiis minima consequatur cupiditate autem nostrum odio Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio saepe expedita labore odit aut tempora perferendis officia hic deserunt temporibus, eos quis incidunt ducimus, amet distinctio accusantium iure officiis tenetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea et error natus voluptas rerum. Magni dignissimos eaque deleniti, officia doloribus voluptatum laudantium ipsum inventore nostrum exercitationem molestiae aspernatur commodi Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam perspiciatis porro dolorem doloremque debitis, et voluptatibus fuga aspernatur alias suscipit quia, cum pariatur sint, dicta quis beatae architecto animi distinctio. </p>
+    </div>
+</body>
+</html>

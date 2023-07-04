@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>box-shadow</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet'  href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'>
+    <script src='main.js'></script>
+
+    <style>
+
+        body
+        {
+            margin: 0;
+            padding: 0;
+            background-color: bisque;
+            -webkit-animation: 2s backindown alternate;
+            -moz-animation:  2s backindown alternate;
+            animation:  2s backindown alternate;
+
+        }
+        .box,.box1
+          {
+            width: 50%;
+            height: auto;
+            margin: auto;
+            padding: 15px;
+            margin-top: 3%;
+            border: solid 3px transparent;
+            -webkit-border-image: url(image/morpich.jpg)round 70;
+            -moz-border-image: url(image/morpich.jpg)round 70;
+            border-image: url(image/morpich.jpg)round 70;
+            box-shadow: 15px 10px 10px 10px blue;
+          }
+          .box h1
+          {
+            font-size: 45px;
+            -webkit-animation: 2s flash infinite;
+            -moz-animation: 2s flash infinite;
+            animation: 2s flash infinite;
+          }
+          
+
+          .box1 h1
+         {
+            font-size: 45px;
+            -webkit-animation: 2s flash infinite;
+            -moz-animation:  2s flash infinite;
+            animation:  2s flash  infinite;
+         }
+
+
+          img
+          {
+            border-radius: 50%;
+            border: solid 4px thistle;
+
+          }
+</style>
+</head>
+<body>
+    <div class="box">
+        <h1> register now </h1>
+    <p><img src="image/elephant.jpg" style="width: 150px; height: auto ;float: left; padding: 5px;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolores quibusdam perferendis enim illum asperiores nemo, earum doloremque et. Reiciendis iure a distinctio delectus at harum animi, perferendis dolorem nemo Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, doloribus deserunt! Suscipit voluptatem blanditiis distinctio tenetur neque quam ut molestias accusantium, vitae cupiditate maxime magni porro ab soluta placeat reprehenderit Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos ut molestias, similique sint culpa quos animi ea ullam eligendi nesciunt id facere quasi aliquid praesentium perferendis veritatis? Maiores Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iusto, beatae dolorum fugiat eligendi est, ab ad quas reprehenderit facilis voluptates eos veniam accusantium officia nobis, eaque sunt autem tempore? commodi?</p>
+    
+    </div>
+
+    
+    <div class="box1">
+        <h1> robot robotics </h1>
+    <p><img src="image/dog.jpg" style="width: 150px; height: auto ;float: left; padding: 5px;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque assumenda distinctio, fugit inventore aperiam voluptatibus. Nisi sunt libero, officiis, dicta harum tempora culpa doloribus itaque labore maiores quaerat atque eum Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quo tempora accusamus qui enim, vitae magnam quos. Beatae, saepe libero. Ipsa laudantium cum, doloribus fugit earum nulla sequi minus provident Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, facilis corporis dolorum molestiae pariatur dicta vero maiores. Consectetur, dolorem dolor natus voluptatem corrupti itaque nobis, animi velit architecto esse voluptate Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ipsum accusantium fugiat, temporibus quis ex distinctio sint perferendis dolore placeat omnis eveniet ea minus nisi explicabo nostrum maxime facilis impedit.</p>
+    </div>
+
+   
+</body>
+</html>

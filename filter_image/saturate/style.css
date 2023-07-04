@@ -1,0 +1,32 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#filter
+{
+    width: 500px;
+    height: 500px;
+    background: url(image/ak.jpg)no-repeat;
+    background-size: 500px 500px;
+    margin-left: 30%;
+    margin-top: 5%;
+    -webkit-filter: saturate(12);
+    filter: saturate(12);
+}
+
+#filter:hover
+
+{
+    width: 500px;
+    height: 500px;
+    background: url(image/ak.jpg)no-repeat;
+    background-size: 500px 500px;
+    margin-left: 30%;
+    margin-top: 5%;
+    -webkit-filter: saturate(0);
+    filter: saturate(0);
+}

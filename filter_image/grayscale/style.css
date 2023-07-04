@@ -1,0 +1,33 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+}
+
+#filter
+{
+    width: 500px;
+    height: 500px;
+    background: url(image/prabhash.jpg)no-repeat;
+    background-size: 500px 500px ;
+    margin-left: 30%;
+    margin-top: 5%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+}
+
+#filter:hover
+{
+    width: 500px;
+    height: 500px;
+    background: url(image/prabhash.jpg)no-repeat;
+    background-size: 500px 500px;
+    margin-left: 30%;
+    margin-top: 5%;
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+}

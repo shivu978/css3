@@ -1,0 +1,36 @@
+body
+{
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+}
+
+
+#filter
+
+{
+    width: 500px;
+    height: 500px;
+    background: url(image/amit.jpg)no-repeat;
+    background-size: 500px 500px;
+    margin-left: 30%;
+    margin-top: 5%;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#filter:hover
+{
+    width: 500px;
+    height: 500px;
+    background: url(image/amit.jpg)no-repeat;
+    background-size: 500px  500px;
+    margin-left: 30%;
+    margin-top: 5%;
+    -webkit-filter: blur(1.5rem);
+    filter: blur(1.5rem);
+
+}

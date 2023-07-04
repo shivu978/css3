@@ -1,0 +1,55 @@
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+# box1
+
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.content
+{
+    width: 250px;
+    height: 200px;
+    background-color: salmon;
+    margin: 5px;
+    padding: 5px;
+}
+
+# box2
+
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    cursor: grabbing;
+    margin-top: 5%;
+    justify-content: space-evenly;
+}
+
+
+# box3
+
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    cursor: progress;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+

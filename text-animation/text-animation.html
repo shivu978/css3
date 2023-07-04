@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>text-animation</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet'href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+>
+
+    <script src='main.js'></script>
+
+
+    <style>
+
+        body
+        {
+             margin: 0;
+             padding: 0;
+             background-color: cadetblue;
+             -webkit-animation: 2s backInDown  alternate;
+             -moz-animation:  2s backInDown  alternate;
+             animation: 2s backInDown  alternate ;
+        }
+
+        .box,.box1
+
+        {
+
+            width: 50%;
+            height: auto;
+            margin: auto;
+            padding: 15px;
+            background-color: darkmagenta;
+            margin-top: 2%;
+            border: solid 10px;
+            -webkit-border-image: url(image/cat1.jpg) round 70;
+            -moz-border-image: url(image/cat1.jpg)round 70;
+            border-image: url(image/cat1.jpg) round 70;
+            box-shadow: 15px 15px 10px 0px lightyellow;
+
+        }
+
+        .box h1
+        {
+            font-size: 40px;
+            -webkit-animation: 2s pulse infinite;
+            -moz-animation: 2s pulse infinite;
+            animation: 2s pulse infinite;
+            text-shadow: 2px 5px 4px pink;
+        }
+
+        .box1 h1
+        {
+            font-size: 40px;
+            -webkit-animation: 2s pulse infinite;
+            -moz-animation: 2s pulse infinite;
+            animation: 2s pulse infinite;
+            text-shadow: 2px 5px 4px pink;
+        }
+
+        .box1 img
+        {
+            animation: 3s headshake infinite;
+        }
+
+        .box1 h1
+        {
+
+            animation: 3s shakey infinite;
+        }
+    </style>
+</head>
+<body>
+    
+       <div class="box">
+        <h1>REGISTER NOW </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam libero architecto quam. Doloremque suscipit itaque vero reprehenderit, unde debitis, incidunt, repellat tenetur minus ut accusamus velit soluta accusantium ratione ipsam Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ullam similique sunt sint deleniti. Laboriosam optio illo labore accusantium? Incidunt nemo nobis maiores maxime dolorem earum rerum porro quos explicabo Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim explicabo non quaerat ad dignissimos id! Fugit doloribus iure placeat voluptatibus provident soluta dolorum magni ut, et commodi ea repellat quas Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem porro suscipit ab eaque labore inventore esse id iure, ad quo, ut itaque nemo est sed! Nam minima dignissimos porro asperiores Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt vel, quia, distinctio minus consequatur earum sunt in perspiciatis, asperiores voluptates quas! Nobis delectus officia vitae et cumque ducimus vel consequatur?</p>
+       </div>
+
+
+       <div class="box1">
+        <h1>ROBOTICS </h1>
+        <p><img src="image/cat3.jpg" style=" width: 150px; height: 150px; float: left; padding: 5px;"> ipsum dolor sit, amet consectetur adipisicing elit. Veniam libero architecto quam. Doloremque suscipit itaque vero reprehenderit, unde debitis, incidunt, repellat tenetur minus ut accusamus velit soluta accusantium ratione ipsam Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ullam similique sunt sint deleniti. Laboriosam optio illo labore accusantium? Incidunt nemo nobis maiores maxime dolorem earum rerum porro quos explicabo Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim explicabo non quaerat ad dignissimos id! Fugit doloribus iure placeat voluptatibus provident soluta dolorum magni ut, et commodi ea repellat quas Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem porro suscipit ab eaque labore inventore esse id iure, ad quo, ut itaque nemo est sed! Nam minima dignissimos porro asperiores Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt vel, quia, distinctio minus consequatur earum sunt in perspiciatis, asperiores voluptates quas! Nobis delectus officia vitae et cumque ducimus vel consequatur?</p>
+       </div>
+
+
+</body>
+</html>
